@@ -64,3 +64,31 @@ And now you can use you're text input and the LCD
 
 
   
+The next We conected is a relay with two bittons or a switch but in the same dashboard. 
+
+
+I prefer two buttons but is the same with the switch. 
+We need to send in both button 
+Well in one of both I configure this send a number one and the other send 0 because the relay on with a one an off need to sendo to 0 
+
+
+![Alt text](FlowRelay.PNG "imagen de resultado") 
+
+
+
+* And dont forget configured the relay to digital pin. 
+
+
+![Alt text](FlowRelay.PNG "imagen de relevador") 
+
+
+
+
+![Alt text](On.PNG "imagen de relevador")
+
+
+
+
+
+
+
