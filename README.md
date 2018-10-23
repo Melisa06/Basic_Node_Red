@@ -43,7 +43,7 @@ I2C:
 Then we will make the flows for the connection of the LCD to a text entry of the Dashboard. 
 Like this : 
 
-![Alt text](FirstFlow.png "imagen de flujo")
+![Alt text](FirstFlow.PNG "imagen de flujo")
 
 
 
