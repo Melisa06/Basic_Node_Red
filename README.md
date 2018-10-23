@@ -55,8 +55,12 @@ at the moment of running the project in the dash a screen like the following wil
 ![Alt text](ResultOne.PNG "imagen de resultado") 	
 
 
+And now you can use you're text input and the LCD 
+
+![Alt text](ResultTwo.PNG "imagen de resultado") 
 
 
+![Alt text](LCD2.jpeg "imagen de conexion")
 
 
   
