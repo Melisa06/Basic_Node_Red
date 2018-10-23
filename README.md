@@ -12,7 +12,6 @@ So Firts I tell you the hardware I use is a Intel Edison.
  
 
 
-
 This Device use a operative system Yocto of linux and in this Device I downloaded some libraries of this link: 
 
 https://theiotlearninginitiative.gitbook.io/ibminternetofthings/node-red/installation
@@ -35,6 +34,16 @@ And for use Telegram and the Dashboard of NodeRed I installed:
 * npm i node-red-dashboard (For Dasboard)
 
 
+
+The First Flow I created is to send some text to LCD connected on the Edison device. This hardware is connected to an input of type 
+I2C: 
+![Alt text](LCD.jpeg "imagen de conexion")
+
+
+Then we will make the flows for the connection of the LCD to a text entry of the Dashboard. 
+Like this : 
+
+![Alt text](FirstFlow.jpeg "imagen de flujo")
 
 
 
