@@ -78,8 +78,7 @@ Well in one of both I configure this send a number one and the other send 0 beca
 
 * And dont forget configured the relay to digital pin. 
 
-
-![Alt text](FlowRelay.PNG "imagen de relevador") 
+So after that you can see on the dashboard something like this.
 
 
 
