@@ -37,16 +37,22 @@ And for use Telegram and the Dashboard of NodeRed I installed:
 
 The First Flow I created is to send some text to LCD connected on the Edison device. This hardware is connected to an input of type 
 I2C: 
+
 ![Alt text](LCD.jpeg "imagen de conexion")
 
 
 Then we will make the flows for the connection of the LCD to a text entry of the Dashboard. 
 Like this : 
 
+
 ![Alt text](FirstFlow.PNG "imagen de flujo")
 
 
 
+at the moment of running the project in the dash a screen like the following will be displayed
+
+
+![Alt text](ResultOne.PNG "imagen de resultado") 	
 
 
 
