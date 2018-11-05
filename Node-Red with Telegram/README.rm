@@ -1,0 +1,42 @@
+Hi everyone! 
+In this repository I got the flows and the steps to create a dunctions with Noide-Red and Telegram , like turn on a Relay an send a message and you can do the computer talk the message you send. 
+Dont forgat you need a libraries of Telegram (https://flows.nodered.org/node/node-red-contrib-telegrambot)
+
+
+First Flow: 
+On Relay and Off Relay 
+
+You need to use th bolck of telegram receiver 
+
+![Alt text](Receiver.PNG "imagen Receiver")
+
+Next you need to create a function where you define what is the command you use to turn on the relay and turn off  in my case is "/onrelay" dont forget the slash because the command you send is something like this.
+
+And you use the conditional to verify what is the command you send. 
+
+msg.payload.content =  msg.payload.content
+
+if(msg.payload.content == "/onrelay"){
+    
+    msg.payload = 1
+}
+
+else if(msg.payload.content == "/offrelay"){
+    msg.payload = 0
+}
+
+return msg;
+
+And finally you link one block with the function and you use the Grove Relay block 
+
+And yo have something like this: 
+
+
+![Alt text](Receiver.PNG "imagen Receiver")
+
+
+
+
+
+ 
+ 
