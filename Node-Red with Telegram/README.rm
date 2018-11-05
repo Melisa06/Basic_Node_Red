@@ -10,7 +10,7 @@ You need to use th bolck of telegram receiver
 
 ![Alt text](Receiver.PNG "imagen Receiver")
 
-![Alt text](Receiver.PNG "imagen de relevador")
+
 
 Next you need to create a function where you define what is the command you use to turn on the relay and turn off  in my case is "/onrelay" dont forget the slash because the command you send is something like this.
 
@@ -37,6 +37,23 @@ And yo have something like this:
 ![Alt text](OnRelay.PNG "imagen Receiver")
 
 
+Now We can do the computer talk with the message you send you only change the function with something like this: 
+
+
+msg.payload.content =  msg.payload.content
+if(msg.payload.content == msg.payload.content){
+    
+    msg.payload = msg.payload.content
+}
+
+return msg;
+
+and the flow is something like this: 
+
+
+![Alt text](Talk.PNG "imagen de relevador")
+
+And if you send some mesage the computer repites the message you send. 
 
 
 
