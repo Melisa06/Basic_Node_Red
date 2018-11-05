@@ -8,7 +8,9 @@ On Relay and Off Relay
 
 You need to use th bolck of telegram receiver 
 
-![Alt text](Receiver.png "imagen Receiver")
+![Alt text](Receiver.PNG "imagen Receiver")
+
+![Alt text](Receiver.PNG "imagen de relevador")
 
 Next you need to create a function where you define what is the command you use to turn on the relay and turn off  in my case is "/onrelay" dont forget the slash because the command you send is something like this.
 
@@ -32,7 +34,7 @@ And finally you link one block with the function and you use the Grove Relay blo
 And yo have something like this: 
 
 
-![Alt text](OnRelay.png "imagen Receiver")
+![Alt text](OnRelay.PNG "imagen Receiver")
 
 
 
