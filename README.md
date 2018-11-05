@@ -116,7 +116,8 @@ if(msg.payload.content == "/onrelay"){
 }
 
 else if(msg.payload.content == "/offrelay"){
-    msg.payload = 0
+   
+ msg.payload = 0
 }
 
 return msg;
@@ -132,6 +133,7 @@ Now We can do the computer talk with the message you send you only change the fu
 
 
 msg.payload.content =  msg.payload.content
+
 if(msg.payload.content == msg.payload.content){
     
     msg.payload = msg.payload.content
