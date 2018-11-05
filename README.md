@@ -128,3 +128,24 @@ And yo have something like this:
 
 ![Alt text](OnRelay.PNG "imagen Receiver")
 
+Now We can do the computer talk with the message you send you only change the function with something like this: 
+
+
+msg.payload.content =  msg.payload.content
+if(msg.payload.content == msg.payload.content){
+    
+    msg.payload = msg.payload.content
+}
+
+return msg;
+
+and the flow is something like this: 
+
+
+![Alt text](Talk.PNG "imagen de relevador")
+
+And if you send some mesage the computer repites the message you send. 
+
+
+
+
